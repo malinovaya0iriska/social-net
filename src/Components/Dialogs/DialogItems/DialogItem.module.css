@@ -1,0 +1,19 @@
+.authors {
+    grid-area: a;
+}
+
+.messageList a {
+    color: navy;
+    text-decoration: none;
+}
+
+.messageList img {
+    width: 15px;
+    border-radius: 8px;
+}
+
+active {
+    font-size: 18px;
+    text-decoration: underline;
+    color: indigo;
+}

@@ -1,0 +1,19 @@
+.appWrapper {
+    width: 100vh;
+    background-color: darkgrey;
+    display: grid;
+    grid-template-areas:
+            "h h"
+            "n p";
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 3fr 10fr;
+    grid-gap: 10px;
+    margin: 0 auto;
+}
+.app-Wrapper-Content {
+    grid-area: p;
+    background-color: wheat;
+}
+
+
+

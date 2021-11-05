@@ -1,0 +1,12 @@
+.item{
+    color: blue;
+    background-color: whitesmoke;
+    margin: 15px;
+}
+.item img{
+    width: 25px;
+    border-radius: 400px;
+}
+.item span {
+    font: 14px Tahoma sans-serif;
+}

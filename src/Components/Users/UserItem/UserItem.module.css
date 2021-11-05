@@ -1,0 +1,11 @@
+.img{
+ /*   width: 15%;*/
+    border-radius: 50%;
+}
+.currentPage{
+    font-size: larger;
+    font-weight: bold;
+}
+.pages span{
+    padding: 0 2px;
+}

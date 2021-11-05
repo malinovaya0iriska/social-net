@@ -1,0 +1,17 @@
+.formControl {
+    outline: none;
+}
+
+.error input,
+.error textarea {
+    border: 2px solid red;
+}
+
+.formControl div {
+    color: red;
+}
+.formSummaryError{
+    border: 2px solid rosybrown;
+    padding: 5px;
+    color: red;
+}

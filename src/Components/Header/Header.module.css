@@ -1,0 +1,28 @@
+.header {
+    grid-area: h;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 8fr 1fr;
+    align-items: center;
+    grid-template-areas: 'logo' 'login'
+}
+
+.header img {
+    width: 50px;
+}
+
+.loginBlock a {
+    text-decoration: none;
+    color: dimgrey;
+    font-weight: bold;
+}
+
+.loginBlock a:hover {
+    color: goldenrod;
+}
+
+.loginBlock img {
+    grid-area: login;
+    float: right;
+    width: 60px;
+}

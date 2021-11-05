@@ -1,0 +1,12 @@
+.dialogs {
+    display: grid;
+    grid-template-areas:'a m';
+    grid-template-columns: 2fr 10fr;
+    grid-gap: 20px;
+
+}
+ul{
+    list-style: none;
+   padding-left: 5px;
+    margin-top: 5px;
+}
